@@ -5,7 +5,7 @@ import { useSearchParams } from 'next/navigation'
 import Navbar from '../../components/Navbar'
 import MenuToggle from '../../components/MenuToggle'
 import MenuViewer from '../../components/MenuViewer'
-import WhatsAppButton from '../../components/WhatsAppButton'
+import Footer from '../../components/Footer'
 
 export default function MenuPageContent() {
   const searchParams = useSearchParams()
@@ -31,11 +31,11 @@ export default function MenuPageContent() {
   return (
     <div className="min-h-screen bg-amber-50">
       <Navbar />
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 pt-20 pb-20">
         <MenuToggle active={activeType} onToggle={handleToggle} />
         <MenuViewer type={activeType} />
       </div>
-      <WhatsAppButton />
+      <Footer />
     </div>
   )
 }

@@ -39,7 +39,7 @@ export default function Home() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Menu Salé
+                Menu Savory
               </motion.button>
             </Link>
             <Link href="/menu?type=sucre">
@@ -48,7 +48,7 @@ export default function Home() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Menu Sucré
+                Menu Sweet
               </motion.button>
             </Link>
           </motion.div>

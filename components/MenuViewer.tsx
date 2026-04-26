@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 
 interface MenuViewerProps {
   type: 'sale' | 'sucre'
@@ -26,13 +25,10 @@ export default function MenuViewer({ type }: MenuViewerProps) {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6, delay: index * 0.2 }}
         >
-          <Image
+          <img
             src={`/menu/${img}`}
             alt={`Menu ${img}`}
-            width={800}
-            height={600}
             className="w-full h-auto rounded-2xl shadow-xl hover:scale-105 transition-transform duration-300"
-            priority={index === 0}
           />
         </motion.div>
       ))}

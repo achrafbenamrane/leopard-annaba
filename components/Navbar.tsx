@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import ContactButton from './ContactButton'
 
 export default function Navbar() {
   return (
@@ -7,8 +8,8 @@ export default function Navbar() {
         <Link href="/" className="text-2xl font-bold">
           Leopard Annaba
         </Link>
-        <div className="text-sm">
-          Smart Digital Menu
+        <div className="relative">
+          <ContactButton />
         </div>
       </div>
     </nav>

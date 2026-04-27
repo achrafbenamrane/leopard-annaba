@@ -20,7 +20,7 @@ export default function MenuToggle({ active, onToggle }: MenuToggleProps) {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Savory
+            🍕 Savory
           </motion.button>
           <motion.button
             className={`px-6 py-3 rounded-full font-semibold text-lg transition-colors ${
@@ -30,7 +30,7 @@ export default function MenuToggle({ active, onToggle }: MenuToggleProps) {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Sweet
+            🍰 Sweet
           </motion.button>
         </div>
       </div>

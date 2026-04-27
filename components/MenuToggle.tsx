@@ -9,7 +9,7 @@ interface MenuToggleProps {
 
 export default function MenuToggle({ active, onToggle }: MenuToggleProps) {
   return (
-    <div className="flex justify-center mb-8">
+    <div className="flex justify-center mb-6">
       <div className="bg-white rounded-full p-1 shadow-lg">
         <div className="flex">
           <motion.button

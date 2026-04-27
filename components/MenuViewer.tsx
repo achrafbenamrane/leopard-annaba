@@ -11,7 +11,7 @@ export default function MenuViewer({ type }: MenuViewerProps) {
 
   return (
     <motion.div
-      className="flex flex-col gap-8 max-w-4xl mx-auto"
+      className="flex flex-col gap-6 max-w-2xl mx-auto"
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}

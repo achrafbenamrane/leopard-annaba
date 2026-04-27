@@ -31,7 +31,7 @@ export default function MenuPageContent() {
   return (
     <div className="min-h-screen bg-amber-50">
       <Navbar />
-      <div className="container mx-auto px-4 py-8 pt-20 pb-20">
+      <div className="container mx-auto px-4 py-6 pt-20 pb-20">
         <MenuToggle active={activeType} onToggle={handleToggle} />
         <MenuViewer type={activeType} />
       </div>
